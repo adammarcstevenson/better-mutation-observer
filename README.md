@@ -39,6 +39,8 @@ import { BetterMutationObserver } from 'better-mutation-observer'
 ## API
 The `BetterMutationObserver` interface is largely the same as the native `MutationObserver` interface with key changes to the required arguments for the observer constructor and the `observe()` method on the instance.
 
+*This reference documentation is adapted from the [MDN docs for the native `MutationObserver` interface](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver).*
+
 ### Constructor
 `BetterMutationObserver()` – Creates and returns a new `BetterMutationObserver` instance, which will invoke a specified callback function when DOM changes occur on the specified node(s).
 
@@ -79,7 +81,7 @@ const callback = (mutationList, observer) => {
 };
 
 // Create an observer instance linked to the target node(s), configured mutations, and callback function
-const observer = new MutationObserver(targetNode, config, callback);
+const observer = new BetterMutationObserver(targetNode, config, callback);
 
 // Start observing the target node(s)
 observer.observe();
