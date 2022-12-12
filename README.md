@@ -1,6 +1,15 @@
 # BetterMutationObserver
 A "better" implementation of the native [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) web interface.
 
+## Project Status
+This project is a hobby project to support other hobby projects I work on. Development of this package is ongoing; expect frequent breaking changes.
+
+***You should not depend on this package for any semi-serious projects.***
+
+### TODO
+- [ ] Write some tests
+- [ ] Figure out how to handle [Live NodeLists](https://developer.mozilla.org/en-US/docs/Web/API/NodeList).
+
 ## Background
 The design of the native [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) interface separates the definition of the observer `callback()` function, which is provided as the sole argument when creating a new `MutationObserver` instance, from the definition of the target node and observer options, which define what DOM mutations are reported and are provided as arguments when calling the `observe()` method of the observer.
 
