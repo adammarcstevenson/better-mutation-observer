@@ -7,12 +7,18 @@
     "build": "tsc",
     "lint": "npx eslint src/**"
   },
+  "files": ["dist/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adammarcstevenson/better-mutation-observer"
+  },
   "keywords": [
     "mutation",
     "observer"
   ],
   "author": "Adam Stevenson",
   "license": "MIT",
+  "homepage": "https://github.com/adammarcstevenson/better-mutation-observer",
   "devDependencies": {
     "@types/core-js": "^2.5.5",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
