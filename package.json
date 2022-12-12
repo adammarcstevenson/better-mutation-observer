@@ -1,8 +1,9 @@
 {
   "name": "better-mutation-observer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A \"better\" implementation of the native `MutationObserver` web API.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "npx eslint src/**"
