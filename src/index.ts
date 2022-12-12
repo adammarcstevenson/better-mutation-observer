@@ -1,4 +1,4 @@
-export default class BetterMutationObserver extends MutationObserver {
+export class BetterMutationObserver extends MutationObserver {
   target: Node | Array<Node> | NodeList
   options: MutationObserverInit
 
