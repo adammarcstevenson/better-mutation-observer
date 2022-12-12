@@ -1,0 +1,23 @@
+{
+  "name": "better-mutation-observer",
+  "version": "1.0.0",
+  "description": "A \"better\" implementation of the native `MutationObserver` web API.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx eslint src/**"
+  },
+  "keywords": [
+    "mutation",
+    "observer"
+  ],
+  "author": "Adam Stevenson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/core-js": "^2.5.5",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.4"
+  }
+}
